@@ -1,0 +1,263 @@
+#top-menu{
+  width: 1600px;
+  height: 75px;
+  background-color: rgb(170, 161, 255);
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  opacity: 50%;
+
+}
+.menu-buttons{
+  float: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+ 
+ 
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+  width:180px;
+  text-align: center;
+}
+
+.menu-buttons:nth-of-type(1){
+  margin-left:10px;
+}
+.menu-buttons:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: rgb(170, 161, 255);
+}
+
+.cont{
+   width: 1250px;
+    margin-top:70px;
+    padding: 20px;
+    background-color: rgb(170, 161, 255);
+    height:600px;
+
+    
+  }
+  #upper-cont{
+    width:1280px;
+    background-color:rgb(170, 161, 255);
+  }
+ .cont h1 {
+    text-align: center;
+    color:white;
+   
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item {
+    width: 200px;
+    margin: 20px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .buy {
+    background-color:rgb(60, 51, 96);
+    color:white;
+    border: white solid 2px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .buy:hover{
+    background-color: white;
+    color: rgb(60, 51, 96);
+    border: rgb(60, 51, 96) solid 2px;
+    cursor: pointer;
+  }
+
+  .distributed{
+    background-color: rgb(170, 161, 255);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width:1280px;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  position:absolute;
+  top:880px;
+  }
+  
+  
+  
+  
+  
+  
+    
+    .distributed .company-namef{
+    color:  #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    }
+  
+    
+  .distributed .linksf{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+  }
+  
+  
+  
+  
+  .distributed .centerf{
+  width: 35%;
+  }
+  
+  .distributed .centerf i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+  }
+  
+  .distributed .centerf i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+  }
+  
+  .distributed .centerf p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+  }
+  
+  .distributed .centerf p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+  }
+  
+  .distributed .centerf p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+  }
+  
+  .distributed .linksf a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+  }
+  
+  .distributed .linksf .link-1:before {
+  content: none;
+  }
+  
+  
+  
+  .distributed .rightf{
+  width: 20%;
+  }
+  
+  .distributed .company-aboutf{
+  line-height: 20px;
+  color:  rgb(60, 51, 96);;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  }
+  .distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+    }
+    
+    .distributed h3 span{
+    color:  lightseagreen;
+    }
+    
+    
+    .distributed .linksf a{
+      display:inline-block;
+      line-height: 1.8;
+      font-weight:400;
+      text-decoration: none;
+      color:  inherit;
+      }
+  .distributed .company-aboutf span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+  
+  .distributed .iconsf{
+  margin-top: 25px;
+  }
+  
+  .distributed .leftf,
+  .distributed .centerf,
+  .distributed .rightf{
+  display: inline-block;
+  vertical-align: top;
+  }
+  
+  
+  
+  .distributed .leftf{
+  width: 40%;
+  }
+  
+  .distributed .iconsf a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+  
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  
+  margin-right: 3px;
+  margin-bottom: 5px;
+  }
+  

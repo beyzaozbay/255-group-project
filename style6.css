@@ -1,0 +1,388 @@
+#banner{
+  display: block;
+  background: url(images/new-bg.webp) no-repeat;
+  position: absolute;
+  height:1000px;
+  width: 1280px;
+  top:75px;
+}
+body{
+  width:1200px;
+}
+
+
+#top-menu{
+  width: 1600px;
+  height: 75px;
+  background-color: rgb(170, 161, 255);
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 50%;
+  margin-top: 0%;
+}
+.menu-buttons{
+  float: left;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding:25px;
+  margin:auto;
+  
+
+  width:180px;
+}
+.menu-buttons:hover{
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: rgb(170, 161, 255);
+}
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  top:150px;
+  height: 100vh;
+  opacity:0.9;
+
+  
+  column-gap: 30px;
+}
+.form{
+  position: absolute;
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background: lightgray;
+ 
+}
+.form.signup{
+  opacity: 0;
+  pointer-events: none;
+}
+.forms.show-signup .form.signup{
+  opacity: 1;
+  pointer-events: auto;
+}
+.forms.show-signup .form.login{
+  opacity: 0;
+  pointer-events: none;
+}
+header{
+  font-size: 28px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+}
+form{
+  margin-top: 30px;
+}
+.form .field{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.field input,
+.field button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+.field input{
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid#CACACA;
+}
+.field input:focus{
+  border-bottom-width: 2px;
+}
+.eye-icon{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+.field button{
+  color: rgb(170, 161, 255);
+  background-color: #FFF;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.field button:hover{
+  background-color: rgb(170, 161, 255);
+  color:white;
+}
+.linkf{
+  text-align: center;
+  margin-top: 10px;
+}
+.linkf span,
+.linfk a{
+  font-size: 14px;
+  font-weight: 400;
+  color: #232836;
+}
+.form a{
+  color: #0171d3;
+  text-decoration: none;
+}
+.content a:hover{
+  text-decoration: underline;
+}
+.line{
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #d4d4d4;
+}
+.line::before{
+  content: 'Or';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  color: #8b8b8b;
+  padding: 0 15px;
+}
+.media a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a.facebook{
+  color: #fff;
+  background-color: #4267b2;
+}
+a.facebook .iconfac{
+  height: 28px;
+  width: 28px;
+  color: #0171d3;
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.iconfac,
+img.imggoo{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+img.imggoo{
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
+a.google{
+  border: 1px solid #CACACA;
+  background-color: orangered;
+  
+}
+a.google span{
+  font-weight: 500;
+  opacity: 0.6;
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .form{
+      padding: 20px 10px;
+  }
+  
+}
+
+.distributed{
+  background-color: rgb(170, 161, 255);
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width:1280px;
+text-align: left;
+font: bold 16px sans-serif;
+padding: 55px 50px;
+position:absolute;
+top:880px;
+}
+
+
+
+
+
+
+  
+  .distributed .company-namef{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  }
+
+  
+.distributed .linksf{
+color:  #ffffff;
+margin: 20px 0 12px;
+padding: 0;
+}
+
+
+
+
+.distributed .centerf{
+width: 35%;
+}
+
+.distributed .centerf i{
+background-color:  #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+}
+
+.distributed .centerf i.fa-envelope{
+font-size: 17px;
+line-height: 38px;
+}
+
+.distributed .centerf p{
+display: inline-block;
+color: #ffffff;
+font-weight:400;
+vertical-align: middle;
+margin:0;
+}
+
+.distributed .centerf p span{
+display:block;
+font-weight: normal;
+font-size:14px;
+line-height:2;
+}
+
+.distributed .centerf p a{
+color:  lightseagreen;
+text-decoration: none;;
+}
+
+.distributed .linksf a:before {
+content: "|";
+font-weight:300;
+font-size: 20px;
+left: 0;
+color: #fff;
+display: inline-block;
+padding-right: 5px;
+}
+
+.distributed .linksf .link-1:before {
+content: none;
+}
+
+
+
+.distributed .rightf{
+width: 20%;
+}
+
+.distributed .company-aboutf{
+line-height: 20px;
+color:  rgb(60, 51, 96);;
+font-size: 13px;
+font-weight: normal;
+margin: 0;
+}
+.distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+  }
+  
+  .distributed h3 span{
+  color:  lightseagreen;
+  }
+  
+  
+  .distributed .linksf a{
+    display:inline-block;
+    line-height: 1.8;
+    font-weight:400;
+    text-decoration: none;
+    color:  inherit;
+    }
+.distributed .company-aboutf span{
+display: block;
+color:  #ffffff;
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.distributed .iconsf{
+margin-top: 25px;
+}
+
+.distributed .leftf,
+.distributed .centerf,
+.distributed .rightf{
+display: inline-block;
+vertical-align: top;
+}
+
+
+
+.distributed .leftf{
+width: 40%;
+}
+
+.distributed .iconsf a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
